@@ -1,6 +1,6 @@
 # Contrastive Feature Decomposition for Image Reflection Removal
 
-Code for ICME2021(oral) paper: Contrastive Feature Decomposition for Image Reflection Removal.
+Official code for ICME2021(oral) paper: Contrastive Feature Decomposition for Image Reflection Removal.
 
 ## Network Architecture
 

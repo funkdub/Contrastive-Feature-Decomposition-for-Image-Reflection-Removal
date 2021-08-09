@@ -1,8 +1,8 @@
-# CONTRASTIVE FEATURE DECOMPOSITION FOR IMAGE REFLECTION REMOVAL  
+# Contrastive Feature Decomposition for Image Reflection Removal
 
 Code for ICME2021(oral) paper: Contrastive Feature Decomposition for Image Reflection Removal.
 
-## NetWork Architecture
+## Network Architecture
 
 ![](image/Network.png)
 

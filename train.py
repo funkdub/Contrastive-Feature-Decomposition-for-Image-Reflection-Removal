@@ -143,8 +143,8 @@ def main():
             if isSyn:
                 l_AB = l1_criterion(imgA, imgB)
                 l_AC = l1_criterion(imgA, imgC)
-                head_loss0 = l1_criterion(l_AB, lx1)
-                head_loss1 = l1_criterion(l_AC, lx2)
+                head_loss0 = l_AB
+                head_loss1 = l_AC
             style_loss = l1_criterion(feature1+feature2, feature1+feature2)
             if isSyn:
                 # Feature Contrast Loss

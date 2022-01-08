@@ -43,11 +43,11 @@ class Model(nn.Module):
         wx1 = x.mul(t1)
         wx2 = x.mul(t2)
 
-        lx1 = self.outc1(wx1)
-        lx2 = self.outc2(wx2)
-
         wx1 = wx1 + x
         wx2 = wx2 + x
+        
+        lx1 = self.outc1(wx1)
+        lx2 = self.outc2(wx2)
 
         u1, out1 = self.unet(wx1)
         u2, out2 = self.unet(wx2)
